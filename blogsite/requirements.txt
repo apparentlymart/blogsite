@@ -1,0 +1,4 @@
+Django
+iso8601
+south
+PIL

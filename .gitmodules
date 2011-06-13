@@ -1,0 +1,6 @@
+[submodule "bee"]
+    path = bee
+    url = git://github.com/apparentlymart/bee
+[submodule "serviceconfig"]
+    path = serviceconfig
+    url = git://github.com/apparentlymart/dotcloud-serviceconfig

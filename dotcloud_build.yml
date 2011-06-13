@@ -1,0 +1,24 @@
+
+web:
+  approot: web
+  requirements:
+    - bee
+    - serviceconfig
+    - blogsite
+
+mysql:
+  approot: mysql
+
+rabbitmq:
+  approot: rabbitmq
+
+worker:
+  approot: worker
+  requirements:
+    - bee
+    - serviceconfig
+    - blogsite
+    - Django
+    - django-celery
+
+
