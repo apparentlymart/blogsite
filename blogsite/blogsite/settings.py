@@ -3,6 +3,9 @@
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+import logging
+logging.basicConfig()
+
 from dotcloud_serviceconfig import config
 
 rabbitmq = config.rabbitmq
